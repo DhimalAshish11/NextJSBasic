@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "../component/NavBar";
 import LearnHooks from "./LearnHooks";
+import LearnUseEffect from "./LearnUseEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <LearnHooks />
+        <LearnUseEffect />
         {children}
       </body>
     </html>
