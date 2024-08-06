@@ -5,6 +5,7 @@ import NavBar from "../component/NavBar";
 import LearnHooks from "./LearnHooks";
 import LearnUseEffect from "./LearnUseEffect";
 import LearnUseReducer from "./LearnUseReducer";
+import LearnUseRef from "./LearnUseRef";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,8 @@ export default function RootLayout({
         {/* <LearnHooks />
         <LearnUseEffect /> */}
 
-        <LearnUseReducer />
+        {/* <LearnUseReducer /> */}
+        <LearnUseRef />
 
         {children}
       </body>
