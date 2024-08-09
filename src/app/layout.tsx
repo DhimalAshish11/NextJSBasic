@@ -6,6 +6,8 @@ import LearnHooks from "./LearnHooks";
 import LearnUseEffect from "./LearnUseEffect";
 import LearnUseReducer from "./LearnUseReducer";
 import LearnUseRef from "./LearnUseRef";
+import LearnUseLayout from "./LearnUseLayout";
+import LearnUseMem0 from "./LearnUseMem0";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +28,10 @@ export default function RootLayout({
         <LearnUseEffect /> */}
 
         {/* <LearnUseReducer /> */}
-        <LearnUseRef />
+        {/*  <LearnUseRef /> */}
+
+        {/* <LearnUseLayout /> */}
+        <LearnUseMem0 />
 
         {children}
       </body>
